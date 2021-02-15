@@ -6,6 +6,7 @@ import Studies from '../../components/Studies'
 import Experience from '../../components/Experience'
 import Skill from '../../components/Skill'
 import Contact from '../../components/Contact'
+import Footer from '../../components/Footer'
 
 class Layout extends React.Component {
   constructor(props) {
@@ -19,9 +20,9 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <div class="mb-80">
-        <ToolBar />
+      <>
         <Header />
+        <ToolBar />
         <main class="mx-64">
           <AboutMe ref={this.aboutMeChild} />
           <Studies ref={this.studiesChild} />
@@ -29,7 +30,8 @@ class Layout extends React.Component {
           <Skill ref={this.skillChild} />
           <Contact ref={this.contactChild} />
         </main>
-      </div>
+        <Footer />
+      </>
     );
   }
 }
