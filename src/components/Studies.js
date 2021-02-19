@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 
 class Studies extends React.Component {
-  studiesRef = null
+  studiesRef = null;
 
   constructor(props) {
-    super(props)
-    this.studiesRef = React.createRef
+    super(props);
+    this.studiesRef = React.createRef;
   }
 
   render() {
     return (
       <article class="pt-11 min-h-screen flex flex-col" ref={this.studiesRef}>
-        <h2 class="mb-4 text-2xl">Mes Étudess</h2>
+        <h2 class="mb-4 text-2xl">Mes Études</h2>
         <Study
           institu="Saint-Vincent de Paul, Collonges-sous-Salève"
           date="2016 - 2019"
@@ -31,7 +31,7 @@ class Studies extends React.Component {
   }
 }
 
-export default Studies
+export default Studies;
 
 class Study extends React.Component {
   render() {
@@ -43,6 +43,6 @@ class Study extends React.Component {
         </div>
         <p>option {this.props.option}</p>
       </div>
-    )
+    );
   }
 }
