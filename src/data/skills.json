@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Programation",
+    "list": [
+      {
+        "name": "Langages",
+        "list": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "C#",
+          "MySQL",
+          "Ruby"
+        ]
+      },
+      {
+        "name": "Framwork Back-end",
+        "list": [
+          "Symfony",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "name": "Framwork Front-end",
+        "list": [
+          "React"
+        ]
+      },
+      {
+        "name": "Framwork CSS",
+        "list": [
+          "Bootstrap",
+          "Tailwind"
+        ]
+      },
+      {
+        "name": "IDE",
+        "list": [
+          "IntelliJ",
+          "VS Code"
+        ]
+      },
+      {
+        "name": "Tools",
+        "list": [
+          "GitHub",
+          "Composer"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Infrasructure",
+    "list": [
+      {
+        "name": "Systèmes d’exploitation",
+        "list": [
+          "Windows",
+          "Mac OS",
+          "Debian"
+        ]
+      },
+      {
+        "name": "Hyperviseur",
+        "list": [
+          "Proxmox",
+          "VMware",
+          "Virtual Box",
+          "Hyper-V",
+          "AWS EC2",
+          "Infomanick"
+        ]
+      },
+      {
+        "name": "Hébergeur",
+        "list": [
+          "AWS EC2",
+          "Infomanick"
+        ]
+      }
+    ]
+  }
+]

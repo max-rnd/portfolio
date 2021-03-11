@@ -23,7 +23,7 @@ class Layout extends React.Component {
       <>
         <Header />
         <ToolBar />
-        <main class="mx-64">
+        <main class="mx-16">
           <AboutMe ref={this.aboutMeChild} />
           <Studies ref={this.studiesChild} />
           <Experience ref={this.experienceChild} />
